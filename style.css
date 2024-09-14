@@ -1,11 +1,16 @@
+html{
+  font-family: 'Courier New', Courier, monospace;
+}
 ul,li {
     size:18px;
 }
 .accordion {
+  font-family: 'Courier New', Courier, monospace;
     background-color: #eeeeee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 16px;
+    font-size: medium;
     width: 100%;
     text-align: left;
     border: none;
@@ -13,7 +18,8 @@ ul,li {
     transition: 0.4s;
   }
   .active, .accordion:hover {
-    background-color: #77c0b4;
+    background-color: #4fb5a1;
+    color: white;
   }
   .panel {
     padding: 0 18px;
@@ -21,7 +27,7 @@ ul,li {
     display: none;
     overflow: hidden;
   }
-  h2{
+  h2,h1{
     color: #1ba388;
   }
   h3{
